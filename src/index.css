@@ -3,25 +3,16 @@
   background-color: #21ABD6;
   margin: 0;
   padding: 0;
-  width: 100%;
 
-  --gray-100: #E5DED8;
-  --gray-200: #D5CDC6;
-  --gray-300: #BDB7B1;
-  --gray-400: #999490;
-  --gray-500: #807B78;
-  --gray-600: #666360;
-  --gray-700: #4D4A48;
-  --gray-800: #333130;
+  --blue-100: #027397;
+  --blue-200: #0389B4;
+  --blue-300: #21ABD6;
+  --blue-400: #52C8ED;
 
-  --brown-100: #F0E0D3;
-  --brown-200: #D6BDA7;
-  --brown-300: #BD9C80;
-  --brown-400: #A37F5F;
-  --brown-500: #8A6442;
-  --brown-600: #704B2B;
-  --brown-700: #573518;
-  --brown-800: #3E230B;
+  --white-100: #F9F9F9;
+  --white-200: #F4F4F4;
+  --white-300: #EDEDED;
+  --white-400: #DCDCDC;
 
   --width: 100vw;
   --height: 100vh;
