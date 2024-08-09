@@ -1,9 +1,13 @@
 import styles from './styles.module.css'
 
-const Cadeira = () => {
+const Cadeira = ( props ) => {
     return (
         <>
-            oi
+            <div className={styles.cadeira}>
+                <div className={styles.nome}>
+                    {props.nome}
+                </div>
+            </div>
         </>
     )
 }
