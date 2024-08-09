@@ -2,31 +2,29 @@
 
 :root {
   font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 100%;
+  font-weight: 500;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background-color: var(--blue-200);
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
 
-  --blue-100: #027397;
-  --blue-200: #0389B4;
-  --blue-300: #21ABD6;
-  --blue-400: #52C8ED;
-
-  --white-100: #F9F9F9;
-  --white-200: #F4F4F4;
-  --white-300: #EDEDED;
-  --white-400: #DCDCDC;
 }
 
 
 body {
-  box-sizing: border-box;
-  padding: 0;
   margin: 0;
   display: flex;
   place-items: center;
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
